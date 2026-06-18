@@ -112,7 +112,7 @@ section{padding:7rem 6vw}
 .tool-tab.active{background:var(--accent);color:var(--ink);border-color:var(--accent);font-weight:500}
 .tool-panel{display:none}
 .tool-panel.active{display:block}
-.tool-box{background:#2a2a27;border:1px solid rgba(255,255,255,0.15);padding:2.5rem;max-width:760px}
+.tool-box{background:#2a2a27;border:1px solid rgba(255,255,255,0.15);padding:16px;max-width:760px}
 .tool-box h3{font-family:'Cormorant Garamond',serif;font-size:1.6rem;font-weight:400;margin-bottom:0.5rem;color:#ffffff}
 .tool-desc{font-size:1.1rem;color:#e8e4dc;margin-bottom:2rem;line-height:1.7}
 .tool-field{display:flex;flex-direction:column;gap:0.35rem;margin-bottom:1.25rem}
@@ -317,9 +317,9 @@ footer{border-top:1px solid var(--bone);padding:2rem 6vw;display:flex;justify-co
         <p style="font-size:0.95rem;font-weight:500;margin-bottom:0.35rem;color:#ffffff;">First &mdash; which best describes you?</p>
         <p style="font-size:0.85rem;color:#e0dcd4;margin-bottom:1.25rem;">Your results will be personalized based on your situation.</p>
         <button class="sit-btn" onclick="qSelectSit('breadwinner',this)"><span class="sit-btn-icon">&#127968;</span><div><strong style="font-size:1.05rem;color:#ffffff;display:block;margin-bottom:4px;">I'm the breadwinner</strong><span style="font-size:0.95rem;color:#e8e4dc;line-height:1.5;">I support my spouse, kids, or immediate family. My income keeps the household running.</span></div></button>
-        <button class="sit-btn" onclick="qSelectSit('single_parent',this)"><span class="sit-btn-icon">&#128105;</span><div><strong style="font-size:1.05rem;color:#ffffff;display:block;margin-bottom:4px;">I'm a single parent</strong><span style="font-size:0.8rem;color:var(--muted);">I run the household on a single income. My kids completely depend on my solo earnings.</span></div></button>
+        <button class="sit-btn" onclick="qSelectSit('single_parent',this)"><span class="sit-btn-icon">&#128105;</span><div><strong style="font-size:1.05rem;color:#ffffff;display:block;margin-bottom:4px;">I'm a single parent</strong><span style="font-size:0.95rem;color:#e8e4dc;line-height:1.5;">I run the household on a single income. My kids completely depend on my solo earnings.</span></div></button>
         <button class="sit-btn" onclick="qSelectSit('sandwich',this)"><span class="sit-btn-icon">&#128116;</span><div><strong style="font-size:1.05rem;color:#ffffff;display:block;margin-bottom:4px;">I'm in the sandwich generation</strong><span style="font-size:0.95rem;color:#e8e4dc;line-height:1.5;">I support both my kids AND my aging parents at the same time. Two generations depend on me.</span></div></button>
-        <button class="sit-btn" onclick="qSelectSit('solo',this)"><span class="sit-btn-icon">&#128100;</span><div><strong style="font-size:1.05rem;color:#ffffff;display:block;margin-bottom:4px;">I'm living independently</strong><span style="font-size:0.8rem;color:var(--muted);">I manage my finances solo. No dependents &mdash; just me building my future.</span></div></button>
+        <button class="sit-btn" onclick="qSelectSit('solo',this)"><span class="sit-btn-icon">&#128100;</span><div><strong style="font-size:1.05rem;color:#ffffff;display:block;margin-bottom:4px;">I'm living independently</strong><span style="font-size:0.95rem;color:#e8e4dc;line-height:1.5;">I manage my finances solo. No dependents &mdash; just me building my future.</span></div></button>
         <button class="btn-primary" id="q-sit-btn" style="width:100%;text-align:center;opacity:0.4;pointer-events:none;" onclick="qStart()">Continue</button>
       </div>
       <div id="q-questions" style="display:none;">
